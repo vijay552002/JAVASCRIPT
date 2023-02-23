@@ -1,0 +1,26 @@
+// let evens=[1,2,3];
+//  let odds  = evens.map(v => v + 1)
+//  console.log(odds);
+//  let pairs = evens.map(v => ({ even: v, odd: v + 1 }))
+//  console.log(pairs);
+//  let nums  = evens.map((v, i) => v + i)
+//  console.log(nums);
+
+// statement bodies
+// nums=[5,9,2,15];
+//fives=[];
+// nums.forEach(v => {
+//     if (v % 5 === 0)
+//         fives.push(v)
+//  })
+  // console.log(fives);
+
+//lexical this
+ const nums=[5,9,2,15];
+ const fives=[];
+ this.nums.forEach((v) => {
+   if (v % 5 === 0)
+     this.fives.push(v)
+ })
+
+ 
