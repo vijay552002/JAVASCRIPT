@@ -11,8 +11,8 @@
 
 //Raw String Access
 function quux (strings, ...values) {
-    console.log(strings[0]);
-    console.log(strings.raw[0]);
+    console.log(strings[0],'1');
+    console.log(strings.raw[0],'2');
     console.log(values[0]);
     strings[1] === "bar"
     strings.raw[1] === "bar"

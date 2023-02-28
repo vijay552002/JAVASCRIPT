@@ -11,9 +11,9 @@
 // console.log(f(1, 2,3.3,"hello", true, 7));
 
 //spread operator
-var params = [ "hello", true, 7 ]
+var params = [ "hello", true, 7,"welcome","joy",1]
 var other = [ 1, 2, ...params ] // [ 1, 2, "hello", true, 7 ]
-
+console.log(other);
 function f (x, y, ...a) {
     return (x + y) * a.length
 }
